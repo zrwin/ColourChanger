@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+
+}
+.heading{
+    border: 2px solid rgb(214, 39, 39);
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+}
+
+.btn{
+    margin: 40px;
+    padding: 7px 50px;
+    font-size: 15px;
+    border: 1px solid black;
+    outline: none;
+    font-family: monospace;
+    border-radius: 5px;
+    
+
+}
+
+
+.btn:hover
+{
+    color: white;
+    background-color: black;
+}
+
+.btn:active{
+    background-color: rgb(66, 60, 60);
+}
+.brand-container{
+    display: inline;
+        
+}
+
+.navbar-container{
+    background-color: rgb(201, 201, 212);
+    padding: 20px;
+}
+
+.navbar{
+    text-align: right;
+    
+}
+
+.brand{
+    display: inline;
+    
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 600;
+    
+}
+.nav-style{
+    
+    display: inline;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(19, 37, 30);
+    font-weight: 500;
+    padding: 10px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-radius: 8px;
+    
+}
+
+.color-name{
+    color: rgba(86, 221, 24, 0.966)
+}
